@@ -1,5 +1,5 @@
 <?php
-
+include ('arrayPrint.php');
 
 
 ?>
@@ -27,11 +27,7 @@
 
     $numbers = array(7,9,8,9,8,8,6);
     printArr($numbers);
-    function printArr(array $t){
-        foreach ($t as $i){
-            echo "<p>$i</p>";
-        }
-    }
+
     ?>
 
 </body>
