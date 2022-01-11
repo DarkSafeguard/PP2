@@ -22,5 +22,9 @@
 
     ?>
 
+    <?php
+    echo '<h2>PHP Array Practice</h2>'
+    ?>
+
 </body>
 </html>
