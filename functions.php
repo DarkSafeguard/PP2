@@ -14,3 +14,11 @@ function largest(array $t){
     }
     echo "<p>Largest = $l</p>";
 }
+
+function removeDups(array $t){
+    $t = array_unique($t);
+    foreach ($t as $i){
+        echo "<p>$i</p>";
+    }
+
+}
